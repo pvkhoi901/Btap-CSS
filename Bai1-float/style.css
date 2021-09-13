@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Rotobo';
+    font-size: 1.2rem;
+}
+
+header{
+    max-width: 1140px;
+    margin: 0px auto;
+    
+}
+.logo, .slogan{
+    float: left;
+}
+header .logo{
+    width: 25%;
+}
+.logo img{
+    max-width: 200px;
+    height: 150px;
+}
+.slogan{
+    width: 75%;
+}
+.slogan h2{
+    line-height:150px ;
+    color: #f06c22;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+nav{
+    max-width: 1140px;
+    clear: left;
+    background-color: #306812;
+    margin: 0 auto;
+    list-style-type: none;
+    height: 45px;
+
+}
+nav ul li{
+    display: inline-block;
+    color: white;
+    line-height: 45px;
+    font-size: 1.3rem;
+    padding: 0 30px 0 50px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.main-left{
+    width: 70%;
+    float: left;
+}
+.main-right{
+    width: 30%;
+    float: left;
+}
+.main-right img{
+    width: 100%;
+    margin-top: 18px;
+    margin-bottom: 50px;
+}
+.content{
+    clear: left;
+}
+.left{
+    float: left;
+    width: 40%;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+.right{
+    float: left;
+    width: 50%;
+    margin-top: 18px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.left img{
+    width: 100%;
+}
+.info{
+    margin-top: 17px;
+}
+.info span{
+    margin-right: 20px;
+}
+footer{
+    width: 1140px;
+    margin: 0 auto;
+    clear: left;
+    background-color: #174101;
+    line-height: 70px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+

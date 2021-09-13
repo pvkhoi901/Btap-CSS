@@ -1,0 +1,13 @@
+span{
+    background-color: orange;
+    width: 350px;
+    height: 390px;
+    display: block;
+    background-image: url(./img/css-sprite.png);
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+span:nth-of-type(1){
+    background-position: 0px 10px;
+}
